@@ -1,0 +1,44 @@
+body {
+    background-color: silver;
+    background: url('images/background.jpg') no-repeat fixed center;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px; 
+}
+
+.titleImage {
+    width: 100%;
+    max-width: 650px;
+}
+
+.mainWrapper {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.75);
+    padding: 2em;
+}
+
+header.title {
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    background-color: #274a9e;
+    text-align: center;
+    padding: 2px;
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Mobile adjustments */
+@media (max-width: 420px) {
+    body {
+        font-size: 14px;
+    }
+
+    .mainWrapper {
+        padding: 0.5em;
+    }
+}
