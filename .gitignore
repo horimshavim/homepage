@@ -18,3 +18,6 @@
 
 # RubyMine
 .idea
+
+# macOS
+.DS_Store
