@@ -1,6 +1,8 @@
 body {
     background-color: silver;
-    background: url('images/background.jpg') no-repeat fixed center;
+    background: url('images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
     font-family: 'Alef', sans-serif;
     font-size: 18px; 
 }
