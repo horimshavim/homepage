@@ -8,9 +8,10 @@ class PoliticsArticle
   def self.all
     ret = []
     ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'מאבקם של הורים גרושים להורות שוויונית', channel: 'ערוץ הכנסת', embed: 'SnHhJvLCgZA', source: :youtube)
-    #ret << PoliticsArticle.new(date: Date.new(2016,6,24), title: 'יומן - סיפורו של אב גרוש הנאבק להורות שווה', channel: 'רשות השידור', embed: 'sUTbEQ4yidY', source: :youtube)
-    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'ביקור ח״כ אמיר אוחנה מהליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019886531392274/', source: :facebook)
-    ret << PoliticsArticle.new(date: Date.new(2016,6,5), title: 'ביקור ח״כ יהודה גליק מהליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019462638101330/', source: :facebook)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'אמהות בעד ביטול חזקת הגיל הרך ושוויון הורי', channel: 'הקול השפוי', embed: 'https://www.facebook.com/parental.equality.israel/videos/1027297663984494/', source: :facebook)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'ביקור חבר הכנסת אמיר אוחנה - מפלגת הליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019886531392274/', source: :facebook)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,5), title: 'ביקור חבר הכנסת יהודה גליק - מפלגת הליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019462638101330/', source: :facebook)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,1), title: 'ביקור חבר הכנסת בצלאל סמוטריץ - מפלגת הבית היהודי', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019443374769923/', source: :facebook)
 
     ret
   end
