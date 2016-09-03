@@ -53,14 +53,13 @@
     <div itemscope itemtype="http://schema.org/LocalBusiness" class="mainWrapper">
       <article class="text-center">
         <header>
-          <%= article.title %> - <%= article.date %>
+          <%= article.channel %> - <%= article.title %> - <%= article.date %>
         </header>
         <p class="subtitle">
-          <div class='embed-container'>
-            <%=raw article.href %>
-          </div>
+          <%=raw article.embed_code %>
         </p>
       </article>
     </div>
     <br />
 <% end %>
+
