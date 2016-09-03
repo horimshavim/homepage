@@ -1,3 +1,5 @@
+require 'cgi'
+
 class PoliticsArticle
   include ActiveModel::Model
 
@@ -23,6 +25,9 @@ class PoliticsArticle
                data-show-text='true'
                data-show-captions='true'
                data-autoplay='false'></div>"
+
+        #return "<div class='embed-container'><iframe src='https://www.facebook.com/plugins/video.php?href=#{CGI::escape(embed)}&show_text=1' style='border:none;overflow:hidden' scrolling='no' height='764' frameborder='0' allowTransparency='false' allowFullScreen='true'></iframe></div>"
+        #return '<div class=""><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fparental.equality.israel%2Fvideos%2F1019886531392274%2F&show_text=1&width=560" width="560" height="764" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="false"></iframe></div>'
       else
         puts "EVERYTHING"
     end
