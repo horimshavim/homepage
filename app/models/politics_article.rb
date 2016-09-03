@@ -10,6 +10,7 @@ class PoliticsArticle
     ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'מאבקם של הורים גרושים להורות שוויונית', channel: 'ערוץ הכנסת', embed: 'SnHhJvLCgZA', source: :youtube)
     #ret << PoliticsArticle.new(date: Date.new(2016,6,24), title: 'יומן - סיפורו של אב גרוש הנאבק להורות שווה', channel: 'רשות השידור', embed: 'sUTbEQ4yidY', source: :youtube)
     ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'ביקור ח״כ אמיר אוחנה מהליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019886531392274/', source: :facebook)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,5), title: 'ביקור ח״כ יהודה גליק מהליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019462638101330/', source: :facebook)
 
     ret
   end
