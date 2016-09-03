@@ -1,3 +1,5 @@
 class PoliticsController < ApplicationController
-  @media = ["a", "b", "c"]
+  def index
+    @articles = PoliticsArticle.all
+  end
 end
