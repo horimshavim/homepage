@@ -7,12 +7,17 @@ class PoliticsArticle
 
   def self.all
     ret = []
-    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'מאבקם של הורים גרושים להורות שוויונית', channel: 'ערוץ הכנסת', embed: 'SnHhJvLCgZA', source: :youtube)
-    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'אמהות בעד ביטול חזקת הגיל הרך ושוויון הורי', channel: 'הקול השפוי', embed: 'https://www.facebook.com/parental.equality.israel/videos/1027297663984494/', source: :facebook)
-    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'ביקור חבר הכנסת אמיר אוחנה - מפלגת הליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019886531392274/', source: :facebook)
-    ret << PoliticsArticle.new(date: Date.new(2016,6,5), title: 'ביקור חבר הכנסת יהודה גליק - מפלגת הליכוד', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019462638101330/', source: :facebook)
-    ret << PoliticsArticle.new(date: Date.new(2016,6,1), title: 'ביקור חבר הכנסת בצלאל סמוטריץ - מפלגת הבית היהודי', channel: 'הורים שווים', embed: 'https://www.facebook.com/parental.equality.israel/videos/1019443374769923/', source: :facebook)
+#    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'מאבקם של הורים גרושים להורות שוויונית', channel: 'ערוץ הכנסת', embed: 'SnHhJvLCgZA', source: :youtube)
+#    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'אמהות בעד ביטול חזקת הגיל הרך ושוויון הורי', channel: 'הקול השפוי', embed: 'https://www.facebook.com/parental.equality.israel/videos/1027297663984494/', source: :facebook)
 
+    ret << PoliticsArticle.new(date: Date.new(2016,6,1), title: 'ביקור חבר הכנסת בצלאל סמוטריץ - מפלגת הבית היהודי', channel: 'הורים שווים', embed: 'BVnjbKARqug', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,5), title: 'ביקור חבר הכנסת יהודה גליק - מפלגת הליכוד', channel: 'הורים שווים', embed: 'VgFakdU2xbg', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,6), title: 'ביקור חבר הכנסת אמיר אוחנה - מפלגת הליכוד', channel: 'הורים שווים', embed: 'LDwmz_y3SnI', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,13), title: 'ביקור שרת המשפטים איילת שקד - מפלגת הליכוד', channel: 'הורים שווים', embed: 'eHeFPB-Lzyw', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,14), title: 'מפגש של שרת המשפטים איילת שקד עם יושבי המאהל', channel: 'הורים שווים', embed: 'dFyVgCmR620', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,14), title: 'ביקור חבר הכנסת יואב קיש - מפלגת הליכוד', channel: 'הורים שווים', embed: 'gT7HpZSUjsc', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,17), title: 'ביקור ד״ר עודד סושרד - חבר מפלגת הבית היהודי', channel: 'הורים שווים', embed: 'bOqxgACz6qc', source: :youtube)
+    ret << PoliticsArticle.new(date: Date.new(2016,6,17), title: 'ראיון של רונית סמדר דרור - יו״ר עמותת לצידכם', channel: 'הורים שווים', embed: 'ZgudrCLORyY', source: :youtube)
     ret
   end
 
